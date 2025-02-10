@@ -1,0 +1,60 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 10.99,
+      "description": "This is product 1",
+      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 20.99,
+      "description": "This is product 2",
+      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "price": 30.99,
+      "description": "This is product 3",
+      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "price": 40.99,
+      "description": "This is product 4",
+      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "price": 50.99,
+      "description": "This is product 5",
+      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "price": 60.99,
+      "description": "This is product 6",
+      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "price": 70.99,
+      "description": "This is product 7",
+      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "price": 80.99,
+      "description": "This is product 8",
+      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+    }
+  ]
+}
