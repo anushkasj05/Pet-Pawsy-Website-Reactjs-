@@ -7,13 +7,15 @@ const Headerr = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div id="header">
-        <FaShoppingCart
-          onClick={() => {
-            navigate("/cart");
-          }}
-        />
-        {Mylen}
+      <div style={{ width: "100%" }}>
+        <div id="header">
+          <FaShoppingCart
+            onClick={() => {
+              navigate("/cart");
+            }}
+          />
+          {Mylen}
+        </div>
       </div>
     </>
   );

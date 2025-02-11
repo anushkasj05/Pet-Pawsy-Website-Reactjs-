@@ -6,6 +6,8 @@ import CheckOut from "./pages/CheckOut";
 import PayComplete from "./pages/PayComplete";
 import ProductDetail from "./pages/ProductDetail";
 import Search from "./pages/Search";
+import KeypadPhone from "./pages/PuppyFood";
+import AndroidPhone from "./pages/DryFood";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
             <Route path="paycomplete" element={<PayComplete />} />
             <Route path="prodetail/:id" element={<ProductDetail />} />
             <Route path="search" element={<Search />} />
+            <Route path="puppyfood" element={<KeypadPhone />} />
+            <Route path="dryfood" element={<AndroidPhone />} />
           </Route>
         </Routes>
       </BrowserRouter>

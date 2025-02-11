@@ -1,60 +1,108 @@
 {
-  "Products": [
+  "products": [
     {
       "id": 1,
-      "name": "Product 1",
-      "price": 10.99,
-      "description": "This is product 1",
-      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Adult Dog Dry Food ",
+      "description": "Himalya Meat Rich Healthy Pet Adult Dog Dry Food 3k",
+      "category": "dry food",
+      "price": 749,
+      "image": "https://m.media-amazon.com/images/I/71iGPCE0igL.jpg"
     },
     {
       "id": 2,
-      "name": "Product 2",
-      "price": 20.99,
-      "description": "This is product 2",
-      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Puppy Food ",
+      "description": "Himalya Puppy Healthy Pet Food chicken & Milk/3kg",
+      "category": "dry food",
+      "price": 860,
+      "image": "https://himalayawellness.in/cdn/shop/files/HPF-PUPPY-1.2-Kg-FRONTSIDE.jpg?v=1708921969"
     },
     {
       "id": 3,
-      "name": "Product 3",
-      "price": 30.99,
-      "description": "This is product 3",
-      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Fidele+ Dry Dog Food Starter Puppy(1kg)",
+      "description": "A complete balanced diet for Weaning Puppies at 3 weeks, also suitable for pregnant and lactating female dogs.",
+      "category": "dry food",
+      "price": 880,
+      "image": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
     },
     {
       "id": 4,
-      "name": "Product 4",
-      "price": 40.99,
-      "description": "This is product 4",
-      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Fidele+ Dry Dog Food Small & Medium Puppy(1kg)",
+      "description": "A complete balanced diet for Small (1 to 7 Kgs) and Medium (3 to 17 Kgs) breed puppies.",
+      "category": "dry food",
+      "price": 870,
+      "image": "https://www.orangepet.in/cdn/shop/files/Small_MediumPuppy_35d99c7e-52ea-4564-817a-6ce7ad8a9bb1_1200x.jpg?v=1707221840"
     },
     {
       "id": 5,
-      "name": "Product 5",
-      "price": 50.99,
-      "description": "This is product 5",
-      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Arden Grange Dry Dog Food Puppy Junior Food Rich in Fresh Chicken(12kg)",
+      "description": "A complete, super-premium pet food for small and medium-breed puppies and adolescent dogs.",
+      "category": "dry food",
+      "price": 10500,
+      "image": "https://www.orangepet.in/cdn/shop/products/ArdenGrangeDryDogFoodPuppyJuniorFoodRichinFreshChicken_1200x.jpg?v=1656317108"
     },
     {
       "id": 6,
-      "name": "Product 6",
-      "price": 60.99,
-      "description": "This is product 6",
-      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Arden Grange Dry Dog Food Large Breed Junior Puppy Food With Fresh Chicken & Rice(12kg)",
+      "description": "A complete, super-premium pet food for large breed puppies and adolescent dogs, containing delicious fresh chicken, has been formulated to meet the nutritional requirements for steady, healthy growth and development.",
+      "category": "dry food",
+      "price": 10500,
+      "image": "https://www.orangepet.in/cdn/shop/products/ArdenGrangeDryDogFoodLargeBreedJuniorPuppyFoodwithfreshchicken_Rice_1200x.jpg?v=1656317319"
     },
     {
       "id": 7,
-      "name": "Product 7",
-      "price": 70.99,
-      "description": "This is product 7",
-      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Arden Grange Prestige Adult Dry Dog Food Rich in Fresh Chicken(12kg)",
+      "description": "A complete, super-premium pet food for adult dogs with increased energy requirements such as working dogs, underweight, pregnant or lactating. ",
+      "price": 11800,
+      "image": "https://www.orangepet.in/cdn/shop/products/ArdenGrangePrestigeAdultDryDogFoodrichinfreshchicken_1200x.jpg?v=1656323366"
     },
     {
       "id": 8,
-      "name": "Product 8",
-      "price": 80.99,
-      "description": "This is product 8",
-      "img": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Pet Food ",
+      "description": "Himalya Puppy Healthy Pet Food chicken & Milk/3kg",
+      "category": "puppy food",
+      "price": 860.0,
+      "image": "https://himalayawellness.in/cdn/shop/files/HPF-PUPPY-1.2-Kg-FRONTSIDE.jpg?v=1708921969"
+    },
+    {
+      "id": 9,
+      "name": "Adult Dog Dry Food ",
+      "description": "Himalya Meat Rich Healthy Pet Adult Dog Dry Food 3k",
+      "category": "dry food",
+      "price": 749.0,
+      "image": "https://m.media-amazon.com/images/I/71iGPCE0igL.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Pet Food ",
+      "description": "Himalya Puppy Healthy Pet Food chicken & Milk/3kg",
+      "category": "puppy food",
+      "price": 860.0,
+      "image": "https://himalayawellness.in/cdn/shop/files/HPF-PUPPY-1.2-Kg-FRONTSIDE.jpg?v=1708921969"
+    },
+    {
+      "id": 11,
+      "name": "Adult Dog Dry Food ",
+      "description": "Himalya Meat Rich Healthy Pet Adult Dog Dry Food 3k",
+      "category": "dry food",
+      "price": 749.0,
+      "image": "https://m.media-amazon.com/images/I/71iGPCE0igL.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Pet Food ",
+      "description": "Himalya Puppy Healthy Pet Food chicken & Milk/3kg",
+      "category": "puppy food",
+      "price": 860.0,
+      "image": "https://himalayawellness.in/cdn/shop/files/HPF-PUPPY-1.2-Kg-FRONTSIDE.jpg?v=1708921969"
+    }
+  ],
+  "userreviews": [
+    {
+      "id": "1",
+      "productid": 2,
+      "point": 4,
+      "comment": "Awesome Product  i recomnded to all users",
+      "email": "ranu123@gmail.com"
     }
   ]
 }

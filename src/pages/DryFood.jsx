@@ -1,7 +1,3 @@
-import Carousel from "react-bootstrap/Carousel";
-import b1 from "../images/b1.jpeg";
-import b2 from "../images/b2.jpeg";
-import b3 from "../images/b3.jpeg";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
@@ -10,12 +6,12 @@ import Card from "react-bootstrap/Card";
 import { useSelector, useDispatch } from "react-redux";
 import { addtoCart } from "../cartSlice";
 import { useNavigate } from "react-router-dom";
-const Home = () => {
+const DryFood = () => {
   const [prodata, setProData] = useState([]);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const loadData = async () => {
-    let api = "http://localhost:3000/products";
+    let api = "http://localhost:3000/products?category=dry food";
     const response = await axios.get(api);
     console.log(response.data);
     setProData(response.data);
@@ -51,6 +47,7 @@ const Home = () => {
                     id: key.id,
                     name: key.name,
                     desc: key.description,
+                    category: key.category,
                     price: key.price,
                     image: key.image,
                     qnty: 1,
@@ -68,37 +65,11 @@ const Home = () => {
 
   return (
     <>
-      <Carousel>
-        <Carousel.Item>
-          <img src={b1} width="100%" height="500" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={b2} width="100%" height="500" />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={b3} width="100%" height="500" />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-
-      <h2 align="center"> Our Products</h2>
+      <h2 align="center"> Dry Food</h2>
 
       <div id="cardData">{ans}</div>
     </>
   );
 };
 
-export default Home;
+export default DryFood;
