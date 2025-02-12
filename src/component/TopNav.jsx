@@ -24,6 +24,9 @@ const TopNav = () => {
             <Nav.Link as={Link} to="dryfood">
               Dry Food
             </Nav.Link>
+            <Nav.Link as={Link} to="dryfood">
+              Wishlist
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
