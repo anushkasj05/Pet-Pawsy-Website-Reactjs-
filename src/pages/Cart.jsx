@@ -53,7 +53,7 @@ const Cart=()=>{
           <Table striped bordered hover>
       <thead>
         <tr>
-          <th>#</th>
+          <th>s.no</th>
           <th>Product Name</th>
           <th>Description</th>
           <th>Price</th>

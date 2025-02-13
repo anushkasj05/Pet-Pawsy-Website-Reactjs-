@@ -6,12 +6,12 @@ import Card from "react-bootstrap/Card";
 import { useSelector, useDispatch } from "react-redux";
 import { addtoCart } from "../cartSlice";
 import { useNavigate } from "react-router-dom";
-const DryFood = () => {
+const Shoes = () => {
   const [prodata, setProData] = useState([]);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const loadData = async () => {
-    let api = "http://localhost:3000/products?category=dry food";
+    let api = "http://localhost:3000/products?category=Shoes";
     const response = await axios.get(api);
     console.log(response.data);
     setProData(response.data);
@@ -65,11 +65,11 @@ const DryFood = () => {
 
   return (
     <>
-      <h2 align="center"> Dry Food</h2>
+      <h2 align="center"> Shoes</h2>
 
       <div id="cardData">{ans}</div>
     </>
   );
 };
 
-export default DryFood;
+export default Shoes;

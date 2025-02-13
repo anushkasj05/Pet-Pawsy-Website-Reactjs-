@@ -2,113 +2,59 @@
   "products": [
     {
       "id": "1",
-      "name": "Adult Dog Dry Food ",
-      "description": "Himalya Meat Rich Healthy Pet Adult Dog Dry Food 3k",
-      "category": "dry food",
-      "price": 749,
-      "image": "https://m.media-amazon.com/images/I/71iGPCE0igL.jpg"
+      "name": "Red Tape Men Colourblocked Lace-Ups Sneakers",
+      "description": "Experience style and comfort combined in these White/Black Men's Casual Sneakers from RedTape.",
+      "category": "Sneakers",
+      "price": "1,679",
+      "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/24592342/2024/9/26/42ec633e-31ea-464e-a582-2a470c2fad051727353600739-Red-Tape-Men-Colourblocked-Lace-Ups-Sneakers-984172735360029-1.jpg"
     },
     {
       "id": "2",
-      "name": "Puppy Food ",
-      "description": "Himalya Puppy Healthy Pet Food chicken & Milk/3kg",
-      "category": "dry food",
-      "price": 860,
-      "image": "https://himalayawellness.in/cdn/shop/files/HPF-PUPPY-1.2-Kg-FRONTSIDE.jpg?v=1708921969"
+      "name": "Nike Air Max 270",
+      "description": "The Nike Air Max 270 features the first-ever Max Air unit created specifically for Nike Sportswear.",
+      "category": "Shoes",
+      "price": "12,995",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/z/f/e/-original-imagx9xhthgmt6gz.jpeg?q=20&crop=false"
     },
     {
       "id": "3",
-      "name": "Fidele+ Dry Dog Food Starter Puppy(1kg)",
-      "description": "A complete balanced diet for Weaning Puppies at 3 weeks, also suitable for pregnant and lactating female dogs.",
-      "category": "dry food",
-      "price": 880,
-      "image": "https://www.orangepet.in/cdn/shop/files/StarterPuppy_f64b071b-598c-495e-95e0-e9937a5805ca_800x.jpg?v=1707221875"
+      "name": "Adidas Ultraboost 22",
+      "description": "Experience epic energy return and plush cushioning in Adidas Ultraboost 22 running shoes.",
+      "category": "Shoes",
+      "price": "15,999",
+      "image": "https://rukminim2.flixcart.com/image/750/900/xif0q/shoe/u/c/c/-original-imahfrsr9hybh4yb.jpeg?q=20&crop=false"
     },
     {
       "id": "4",
-      "name": "Fidele+ Dry Dog Food Small & Medium Puppy(1kg)",
-      "description": "A complete balanced diet for Small (1 to 7 Kgs) and Medium (3 to 17 Kgs) breed puppies.",
-      "category": "dry food",
-      "price": 870,
-      "image": "https://www.orangepet.in/cdn/shop/files/Small_MediumPuppy_35d99c7e-52ea-4564-817a-6ce7ad8a9bb1_1200x.jpg?v=1707221840"
+      "name": "Puma RS-X",
+      "description": "The Puma RS-X brings together retro and futuristic design elements for a bold sneaker look.",
+      "category": "Sneakers",
+      "price": "10,999",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/z/f/x/-original-imahfpzfqncaypf4.jpeg?q=90&crop=false"
     },
     {
       "id": "5",
-      "name": "Arden Grange Dry Dog Food Puppy Junior Food Rich in Fresh Chicken(12kg)",
-      "description": "A complete, super-premium pet food for small and medium-breed puppies and adolescent dogs.",
-      "category": "dry food",
-      "price": 10500,
-      "image": "https://www.orangepet.in/cdn/shop/products/ArdenGrangeDryDogFoodPuppyJuniorFoodRichinFreshChicken_1200x.jpg?v=1656317108"
+      "name": "Reebok Classic Leather",
+      "description": "Step into timeless style with the Reebok Classic Leather sneakers.",
+      "category": "Sneakers",
+      "price": "7,499",
+      "image": "https://imagescdn.reebok.in/img/app/product/7/774341-8916771.jpg"
     },
     {
       "id": "6",
-      "name": "Arden Grange Dry Dog Food Large Breed Junior Puppy Food With Fresh Chicken & Rice(12kg)",
-      "description": "A complete, super-premium pet food for large breed puppies and adolescent dogs, containing delicious fresh chicken, has been formulated to meet the nutritional requirements for steady, healthy growth and development.",
-      "category": "dry food",
-      "price": 10500,
-      "image": "https://www.orangepet.in/cdn/shop/products/ArdenGrangeDryDogFoodLargeBreedJuniorPuppyFoodwithfreshchicken_Rice_1200x.jpg?v=1656317319"
-    },
-    {
-      "id": "7",
-      "name": "Arden Grange Prestige Adult Dry Dog Food Rich in Fresh Chicken(12kg)",
-      "description": "A complete, super-premium pet food for adult dogs with increased energy requirements such as working dogs, underweight, pregnant or lactating. ",
-      "price": 11800,
-      "image": "https://www.orangepet.in/cdn/shop/products/ArdenGrangePrestigeAdultDryDogFoodrichinfreshchicken_1200x.jpg?v=1656323366"
-    },
-    {
-      "id": "8",
-      "name": "Pet Food ",
-      "description": "Himalya Puppy Healthy Pet Food chicken & Milk/3kg",
-      "category": "puppy food",
-      "price": 860,
-      "image": "https://himalayawellness.in/cdn/shop/files/HPF-PUPPY-1.2-Kg-FRONTSIDE.jpg?v=1708921969"
-    },
-    {
-      "id": "9",
-      "name": "Adult Dog Dry Food ",
-      "description": "Himalya Meat Rich Healthy Pet Adult Dog Dry Food 3k",
-      "category": "dry food",
-      "price": 749,
-      "image": "https://m.media-amazon.com/images/I/71iGPCE0igL.jpg"
-    },
-    {
-      "id": "10",
-      "name": "Pet Food ",
-      "description": "Himalya Puppy Healthy Pet Food chicken & Milk/3kg",
-      "category": "puppy food",
-      "price": 860,
-      "image": "https://himalayawellness.in/cdn/shop/files/HPF-PUPPY-1.2-Kg-FRONTSIDE.jpg?v=1708921969"
-    },
-    {
-      "id": "11",
-      "name": "Adult Dog Dry Food ",
-      "description": "Himalya Meat Rich Healthy Pet Adult Dog Dry Food 3k",
-      "category": "dry food",
-      "price": 749,
-      "image": "https://m.media-amazon.com/images/I/71iGPCE0igL.jpg"
-    },
-    {
-      "id": "12",
-      "name": "Pet Food ",
-      "description": "Himalya Puppy Healthy Pet Food chicken & Milk/3kg",
-      "category": "puppy food",
-      "price": 860,
-      "image": "https://himalayawellness.in/cdn/shop/files/HPF-PUPPY-1.2-Kg-FRONTSIDE.jpg?v=1708921969"
+      "name": "New Balance 327",
+      "description": "A modern twist on 70s-inspired running shoes, combining comfort and style.",
+      "category": "Shoes",
+      "price": "8,999",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgCDs1jhMnMLxTBe5iEuk0vSxjTF4SNCTkxA&s"
     }
   ],
   "userreviews": [
     {
-      "id": "1",
-      "productid": 2,
-      "point": 4,
-      "comment": "Awesome Product  i recomnded to all users",
-      "email": "ranu123@gmail.com"
-    },
-    {
       "id": "39f1",
       "productid": 1,
       "point": 5,
-      "comment": "worth the money ",
+      "comment": "Worth the money!",
       "email": "anushka@gmail.com"
     },
     {
@@ -116,14 +62,42 @@
       "productid": 1,
       "point": 5,
       "email": "divyansh@gmail.com",
-      "comment": "best food for my pup"
+      "comment": "Best shoes for casual wear."
     },
     {
-      "id": "b02c",
+      "id": "fe08",
+      "productid": 5,
+      "point": 4.5,
+      "comment": "Great comfort and classic design!",
+      "email": "ravi@gmail.com"
+    },
+    {
+      "id": "b09c",
+      "productid": 6,
+      "point": 4.8,
+      "comment": "Trendy and super comfortable!",
+      "email": "megha@gmail.com"
+    },
+    {
+      "id": "7883",
+      "productid": 2,
+      "point": 5,
+      "comment": "very comfortable ",
+      "email": "achan@gmail.com"
+    },
+    {
+      "id": "503e",
       "productid": 4,
       "point": 4,
-      "comment": "not fit for long term consumption",
-      "email": "argha@gmail.com"
+      "comment": "bit on the higher side ",
+      "email": "Radhe@gmail.com"
+    },
+    {
+      "id": "a9e3",
+      "productid": 3,
+      "point": 3.5,
+      "comment": "less color variants",
+      "email": "praveen@gmail.com"
     }
   ]
 }

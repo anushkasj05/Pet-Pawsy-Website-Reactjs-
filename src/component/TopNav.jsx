@@ -7,7 +7,7 @@ const TopNav = () => {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Pet</Navbar.Brand>
+          <Navbar.Brand href="#home">Sneaky Head</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to="home">
               Home
@@ -18,15 +18,13 @@ const TopNav = () => {
             <Nav.Link as={Link} to="search">
               Search
             </Nav.Link>
-            <Nav.Link as={Link} to="puppyfood">
-              Puppy Food
+            <Nav.Link as={Link} to="shoes">
+              Shoes{" "}
             </Nav.Link>
-            <Nav.Link as={Link} to="dryfood">
-              Dry Food
+            <Nav.Link as={Link} to="sneakers">
+              Sneakers
             </Nav.Link>
-            <Nav.Link as={Link} to="dryfood">
-              Wishlist
-            </Nav.Link>
+            
           </Nav>
         </Container>
       </Navbar>

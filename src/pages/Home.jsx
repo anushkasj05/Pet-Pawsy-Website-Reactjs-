@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
-import b1 from "../images/b1.jpeg";
-import b2 from "../images/b2.jpeg";
+import b1 from "../images/b1.webp";
+import b2 from "../images/b2.webp";
 import b3 from "../images/b3.jpeg";
 import axios from "axios";
 import { useState, useEffect } from "react";
@@ -56,13 +56,8 @@ const Home = () => {
   }, []);
 
   const renderStars = (rating) => {
-    let stars = "";
-    if (rating) {
-      for (let i = 0; i < Math.round(rating); i++) {
-        stars += "⭐";
-      }
-    }
-    return stars;
+    const roundedRating = Math.round(rating);
+    return "⭐".repeat(roundedRating);
   };
 
   return (
@@ -77,8 +72,8 @@ const Home = () => {
               alt={`Banner ${index + 1}`}
             />
             <Carousel.Caption>
-              <h3>Slide {index + 1}</h3>
-              <p>Some description here.</p>
+              <h3>Branded Sneakers and Shoes </h3>
+              <p>All at the best prices all across the globe</p>
             </Carousel.Caption>
           </Carousel.Item>
         ))}
@@ -109,13 +104,10 @@ const Home = () => {
                 <p>{product.description}</p>
                 <h4>Price: {product.price}</h4>
 
-                {/* Display Rating */}
-                <h5>
-                  Rating:{" "}
-                  {ratings[product.id] ? ratings[product.id] : "No Ratings"}
-                </h5>
                 <div style={{ fontSize: "18px", color: "#FFD700" }}>
-                  {ratings[product.id] ? renderStars(ratings[product.id]) : ""}
+                  {ratings[product.id]
+                    ? renderStars(ratings[product.id])
+                    : "No Ratings"}
                 </div>
               </Card.Text>
 
