@@ -10,14 +10,7 @@ const Headerr = () => {
     <>
       <div style={{ width: "100%" }}>
         <div id="header">
-          <CiHeart style={{ fontSize: "xx-larger" }} />
-          <FaShoppingCart
-            style={{ fontSize: "larger" }}
-            onClick={() => {
-              navigate("/cart");
-            }}
-          />
-          {Mylen}
+         
         </div>
       </div>
     </>
