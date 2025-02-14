@@ -47,7 +47,10 @@ const ProductDetail = () => {
 
       // Calculate average rating
       if (reviewRes.data.length > 0) {
-        const totalRating = reviewRes.data.reduce((acc, review) => acc + review.point, 0);
+        const totalRating = reviewRes.data.reduce(
+          (acc, review) => acc + review.point,
+          0
+        );
         setAverageRating((totalRating / reviewRes.data.length).toFixed(1));
       } else {
         setAverageRating(null);
@@ -92,13 +95,19 @@ const ProductDetail = () => {
       <h1>Product Detail:</h1>
       <div id="myproduct">
         <div>
-          <img src={mydata.image} width="300px" height="300px" alt={mydata.name} />
+          <img
+            src={mydata.image}
+            width="300px"
+            height="300px"
+            alt={mydata.name}
+          />
         </div>
         <div>
-          <h2>Product Name: {mydata.name}</h2>
-          <h3 style={{ color: "red" }}>Price: {mydata.price}</h3>
-          <h4>Description: {mydata.description}</h4>
-          <h4>Average Rating: {averageRating ? `${averageRating} ⭐` : "No Ratings Yet"}</h4>
+          <h2>{mydata.name}</h2>
+          <h6>{mydata.description}</h6>
+          <h3 style={{ color: "red" }}>{mydata.price}</h3>
+
+          <p> {averageRating ? `${averageRating} ⭐` : "No Ratings Yet"}</p>
 
           <Button
             variant="primary"

@@ -13,39 +13,36 @@ const TopNav = () => {
   const navigate = useNavigate();
 
   return (
-    <>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Sneaky Head</Navbar.Brand>
+    <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
+      <Container>
+        <Navbar.Brand as={Link} to="/home">
+          Sneaky Head
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="home">
+            <Nav.Link as={Link} to="/home">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="cart">
+            <Nav.Link as={Link} to="/cart">
               Cart
             </Nav.Link>
-            <Nav.Link as={Link} to="search">
+            <Nav.Link as={Link} to="/search">
               Search
             </Nav.Link>
-            <Nav.Link as={Link} to="shoes">
+            <Nav.Link as={Link} to="/shoes">
               Shoes
             </Nav.Link>
-            <Nav.Link as={Link} to="sneakers">
+            <Nav.Link as={Link} to="/sneakers">
               Sneakers
             </Nav.Link>
           </Nav>
-          <div className="d-flex align-items-center" style={{ gap: "15px" }}>
+          <div className="d-flex align-items-center gap-3">
             <div
               onClick={() => navigate("/wishlist")}
               style={{ position: "relative", cursor: "pointer" }}
             >
-              <CiHeart
-                style={{
-                  fontSize: "xx-large",
-                  color: "white",
-                  cursor: "pointer",
-                }}
-              />
+              <CiHeart style={{ fontSize: "xx-large", color: "white" }} />
             </div>
             <div
               onClick={() => navigate("/cart")}
@@ -70,9 +67,9 @@ const TopNav = () => {
               )}
             </div>
           </div>
-        </Container>
-      </Navbar>
-    </>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

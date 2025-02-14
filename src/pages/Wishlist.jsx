@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
 import { FaHeart } from "react-icons/fa";
+import { addtoCart } from "../cartSlice";
 
 const Wishlist = () => {
   const wishlist = useSelector((state) => state.wishlist.items);

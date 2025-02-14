@@ -53,19 +53,6 @@ const Cart = () => {
   return (
     <>
       <h1 align="center"> My Cart</h1>
-      <h3 align="center">
-        <PiCurrencyInrBold /> {totAmount}
-      </h3>
-      <h1 align="right">
-        <Button
-          variant="warning"
-          onClick={() => {
-            navigate("/checkout");
-          }}
-        >
-          Checkout
-        </Button>
-      </h1>
 
       <hr />
 
@@ -76,13 +63,28 @@ const Cart = () => {
             <th>Product Name</th>
             <th>Description</th>
             <th>Price</th>
-            <th> Quantity </th>
-            <th> Total</th>
-            <th> </th>
+            <th>Quantity </th>
+            <th>Total</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>{ans}</tbody>
       </Table>
+      <h5 align="right">
+        Total:
+        <PiCurrencyInrBold />
+        {totAmount}
+      </h5>
+      <h1 align="right">
+        <Button
+          variant="warning"
+          onClick={() => {
+            navigate("/checkout");
+          }}
+        >
+          Checkout
+        </Button>
+      </h1>
     </>
   );
 };
