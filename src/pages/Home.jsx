@@ -6,15 +6,18 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addtoCart } from "../cartSlice";
+import { addToWishlist, removeFromWishlist } from "./wishlistSlice"; // Import wishlist actions
 import { useNavigate } from "react-router-dom";
+import { FaHeart, FaRegHeart } from "react-icons/fa"; // Heart icons
 
 const Home = () => {
   const [prodata, setProData] = useState([]);
   const [ratings, setRatings] = useState({});
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const wishlist = useSelector((state) => state.wishlist.items); // Get wishlist from Redux
 
   const loadData = async () => {
     try {
@@ -90,47 +93,84 @@ const Home = () => {
           justifyContent: "center",
         }}
       >
-        {prodata.map((product) => (
-          <Card key={product.id} style={{ width: "16rem", marginTop: "20px" }}>
-            <Card.Img
-              variant="top"
-              src={product.image}
-              style={{ height: "300px", cursor: "pointer" }}
-              onClick={() => navigate(`/prodetail/${product.id}`)}
-            />
-            <Card.Body>
-              <Card.Title>{product.name}</Card.Title>
-              <Card.Text>
-                <p>{product.description}</p>
-                <h4>Price: {product.price}</h4>
+        {prodata.map((product) => {
+          const isWishlisted = wishlist.some((item) => item.id === product.id); // Check if in wishlist
 
-                <div style={{ fontSize: "18px", color: "#FFD700" }}>
-                  {ratings[product.id]
-                    ? renderStars(ratings[product.id])
-                    : "No Ratings"}
-                </div>
-              </Card.Text>
+          return (
+            <Card
+              key={product.id}
+              style={{ width: "16rem", marginTop: "20px" }}
+            >
+              <Card.Img
+                variant="top"
+                src={product.image}
+                style={{ height: "300px", cursor: "pointer" }}
+                onClick={() => navigate(`/prodetail/${product.id}`)}
+              />
+              <Card.Body>
+                <Card.Title>{product.name}</Card.Title>
+                <Card.Text>
+                  <p>{product.description}</p>
+                  <h4>Price: {product.price}</h4>
 
-              <Button
-                variant="primary"
-                onClick={() =>
-                  dispatch(
-                    addtoCart({
-                      id: product.id,
-                      name: product.name,
-                      desc: product.description,
-                      price: product.price,
-                      image: product.image,
-                      qnty: 1,
-                    })
-                  )
-                }
-              >
-                Add to Cart
-              </Button>
-            </Card.Body>
-          </Card>
-        ))}
+                  <div style={{ fontSize: "18px", color: "#FFD700" }}>
+                    {ratings[product.id]
+                      ? renderStars(ratings[product.id])
+                      : "No Ratings"}
+                  </div>
+                </Card.Text>
+
+                <Button
+                  variant="outline-none"
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    fontSize: "24px",
+                  }}
+                  onClick={() => {
+                    if (isWishlisted) {
+                      dispatch(removeFromWishlist(product.id));
+                    } else {
+                      dispatch(
+                        addToWishlist({
+                          id: product.id,
+                          name: product.name,
+                          desc: product.description,
+                          price: product.price,
+                          image: product.image,
+                        })
+                      );
+                    }
+                  }}
+                >
+                  {isWishlisted ? (
+                    <FaHeart color="red" />
+                  ) : (
+                    <FaRegHeart color="black" />
+                  )}
+                </Button>
+
+                <Button
+                  variant="primary"
+                  onClick={() =>
+                    dispatch(
+                      addtoCart({
+                        id: product.id,
+                        name: product.name,
+                        desc: product.description,
+                        price: product.price,
+                        image: product.image,
+                        qnty: 1,
+                      })
+                    )
+                  }
+                >
+                  Add to Cart
+                </Button>
+              </Card.Body>
+            </Card>
+          );
+        })}
       </div>
     </>
   );

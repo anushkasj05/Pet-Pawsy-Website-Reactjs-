@@ -17,8 +17,6 @@ const TopNav = () => {
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">Sneaky Head</Navbar.Brand>
-
-          {/* Left Side Links */}
           <Nav className="me-auto">
             <Nav.Link as={Link} to="home">
               Home
@@ -36,16 +34,19 @@ const TopNav = () => {
               Sneakers
             </Nav.Link>
           </Nav>
-
-          {/* Right Side Icons */}
           <div className="d-flex align-items-center" style={{ gap: "15px" }}>
-            <CiHeart
-              style={{
-                fontSize: "xx-large",
-                color: "white",
-                cursor: "pointer",
-              }}
-            />
+            <div
+              onClick={() => navigate("/wishlist")}
+              style={{ position: "relative", cursor: "pointer" }}
+            >
+              <CiHeart
+                style={{
+                  fontSize: "xx-large",
+                  color: "white",
+                  cursor: "pointer",
+                }}
+              />
+            </div>
             <div
               onClick={() => navigate("/cart")}
               style={{ position: "relative", cursor: "pointer" }}

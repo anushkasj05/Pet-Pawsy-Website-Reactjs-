@@ -8,6 +8,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Search from "./pages/Search";
 import Shoes from "./pages/Shoes";
 import Sneakers from "./pages/Sneakers";
+import Wishlist from "./pages/Wishlist";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="search" element={<Search />} />
             <Route path="shoes" element={<Shoes />} />
             <Route path="sneakers" element={<Sneakers />} />
+            <Route path="wishlist" element={<Wishlist />} />
           </Route>
         </Routes>
       </BrowserRouter>

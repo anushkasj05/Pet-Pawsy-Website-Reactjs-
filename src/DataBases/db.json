@@ -5,7 +5,7 @@
       "name": "Red Tape Men Colourblocked Lace-Ups Sneakers",
       "description": "Experience style and comfort combined in these White/Black Men's Casual Sneakers from RedTape.",
       "category": "Sneakers",
-      "price": "1,679",
+      "price": 1679,
       "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/24592342/2024/9/26/42ec633e-31ea-464e-a582-2a470c2fad051727353600739-Red-Tape-Men-Colourblocked-Lace-Ups-Sneakers-984172735360029-1.jpg"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Nike Air Max 270",
       "description": "The Nike Air Max 270 features the first-ever Max Air unit created specifically for Nike Sportswear.",
       "category": "Shoes",
-      "price": "12,995",
+      "price": 12995,
       "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/z/f/e/-original-imagx9xhthgmt6gz.jpeg?q=20&crop=false"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Adidas Ultraboost 22",
       "description": "Experience epic energy return and plush cushioning in Adidas Ultraboost 22 running shoes.",
       "category": "Shoes",
-      "price": "15,999",
+      "price": 15999,
       "image": "https://rukminim2.flixcart.com/image/750/900/xif0q/shoe/u/c/c/-original-imahfrsr9hybh4yb.jpeg?q=20&crop=false"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Puma RS-X",
       "description": "The Puma RS-X brings together retro and futuristic design elements for a bold sneaker look.",
       "category": "Sneakers",
-      "price": "10,999",
+      "price": 10999,
       "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/z/f/x/-original-imahfpzfqncaypf4.jpeg?q=90&crop=false"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Reebok Classic Leather",
       "description": "Step into timeless style with the Reebok Classic Leather sneakers.",
       "category": "Sneakers",
-      "price": "7,499",
+      "price": 7499,
       "image": "https://imagescdn.reebok.in/img/app/product/7/774341-8916771.jpg"
     },
     {
@@ -45,8 +45,80 @@
       "name": "New Balance 327",
       "description": "A modern twist on 70s-inspired running shoes, combining comfort and style.",
       "category": "Shoes",
-      "price": "8,999",
+      "price": 8999,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgCDs1jhMnMLxTBe5iEuk0vSxjTF4SNCTkxA&s"
+    },
+    {
+      "id": "7",
+      "name": "Nike Dunk Low Retro",
+      "description": "The Nike Dunk Low Retro revives a classic silhouette with modern cushioning for everyday comfort.",
+      "category": "Sneakers",
+      "price": 11499,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b8083f2f-0933-4c11-9438-5497d751ce62/NIKE+DUNK+LOW+RETRO.png"
+    },
+    {
+      "id": "8",
+      "name": "Adidas Superstar",
+      "description": "The Adidas Superstar remains an icon with its classic shell-toe design and timeless appeal.",
+      "category": "Sneakers",
+      "price": 8999,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuAEDCSWz6bu51jO-_W6PlVX39Yz896YcMRxTroqLqVwuzLuyiJdcaL_HUSuAzCOVx_ow&usqp=CAU"
+    },
+    {
+      "id": "9",
+      "name": "Vans Old Skool",
+      "description": "The Vans Old Skool sneaker features a durable suede and canvas upper with the classic side stripe.",
+      "category": "Sneakers",
+      "price": 5999,
+      "image": "https://sneakflex.pk/cdn/shop/files/WhatsAppImage2024-04-23at6.43.04AM_900x.jpg?v=1713890048"
+    },
+    {
+      "id": "10",
+      "name": "Converse Chuck Taylor All Star",
+      "description": "The Converse Chuck Taylor All Star is a timeless sneaker known for its versatility and comfort.",
+      "category": "Sneakers",
+      "price": 5499,
+      "image": "https://ir.ozone.ru/s3/multimedia-l/c1000/6678159717.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Nike Zoom Pegasus 40",
+      "description": "Designed for runners, the Nike Zoom Pegasus 40 offers responsive cushioning and breathability.",
+      "category": "Shoes",
+      "price": 11999,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AQ-1VI9I_83sA9qvLOmKNIslqztJqFgJtQ&s"
+    },
+    {
+      "id": "12",
+      "name": "Asics Gel-Kayano 30",
+      "description": "The Asics Gel-Kayano 30 delivers premium stability and cushioning for long-distance runners.",
+      "category": "Shoes",
+      "price": 13999,
+      "image": "https://www.asics.co.in/media/catalog/product/1/0/1011b548_006_sb_fr_glb-2.jpg?auto=webp&format=pjpg&width=320&height=400&fit=cover"
+    },
+    {
+      "id": "13",
+      "name": "Puma Suede Classic",
+      "description": "A streetwear staple, the Puma Suede Classic offers timeless style and premium comfort.",
+      "category": "Sneakers",
+      "price": 6999,
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/374915/01/fnd/IND/w/1000/h/1000/fmt/png"
+    },
+    {
+      "id": "14",
+      "name": "Reebok Zig Kinetica",
+      "description": "The Reebok Zig Kinetica combines energy return technology with futuristic design for a bold look.",
+      "category": "Sneakers",
+      "price": 9999,
+      "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/u/d/i/-original-imagr7vffmzxympg.jpeg?q=90&crop=false"
+    },
+    {
+      "id": "15",
+      "name": "Under Armour HOVR Phantom 2",
+      "description": "Designed for athletes, the Under Armour HOVR Phantom 2 provides ultimate energy return and comfort.",
+      "category": "Shoes",
+      "price": 11999,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_CZe526oWUQy7G1ZjEXhLoO7mtuH8rxaqg&s"
     }
   ],
   "userreviews": [
