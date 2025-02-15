@@ -6,6 +6,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
+import logo from "../images/logo1.png";
 
 const TopNav = () => {
   const Cart = useSelector((state) => state.mycart.cart);
@@ -15,8 +16,8 @@ const TopNav = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
       <Container>
-        <Navbar.Brand as={Link} to="/home">
-          Sneaky Head
+        <Navbar.Brand>
+          <img src={logo} alt="logo" height="50" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
