@@ -74,3 +74,23 @@
   justify-content: center;
   align-items: center;
 }
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-social {
+  color: #bbb;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer-social:hover {
+  color: #fff;
+  transform: scale(1.2);
+}

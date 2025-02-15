@@ -1,113 +1,87 @@
-import {
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
-  FaPhone,
-  FaEnvelope,
-  FaMapMarkerAlt,
-  FaClock,
-} from "react-icons/fa";
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { FaFacebook, FaInstagram, FaTwitter, FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer
-      style={{
-        backgroundColor: "#222",
-        color: "white",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        padding: "30px 20px",
-        flexWrap: "wrap",
-        textAlign: "center",
-        borderTop: "3px solid #ff9800",
-      }}
-    >
-      <div
-        style={{
-          maxWidth: "50%",
-          minWidth: "300px",
-          marginBottom: "20px",
-          textAlign: "left",
-        }}
-      >
-        <p
-          style={{
-            fontSize: "24px",
-            fontWeight: "bold",
-            marginBottom: "15px",
-            color: "#ff9800",
-          }}
-        >
-          Sneaky Heads
+    <footer className="bg-black text-light py-5">
+      <Container>
+        <Row className="text-center text-md-start">
+          {/* About Section */}
+          <Col md={3} className="mb-4">
+            <h5 className="text-uppercase fw-bold">Sneaky Heads</h5>
+            <p className="small">
+              The ultimate hub for sneaker lovers. Discover, shop, and collect
+              the hottest kicks in the game. Stay fresh, stay fly. 👟🔥
+            </p>
+          </Col>
+
+          {/* Quick Links */}
+          <Col md={3} className="mb-4">
+            <h5 className="text-uppercase fw-bold">Quick Links</h5>
+            <ul className="list-unstyled">
+              <li>
+                <a href="/" className="footer-link">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/shop" className="footer-link">
+                  Shop
+                </a>
+              </li>
+              <li>
+                <a href="/releases" className="footer-link">
+                  New Releases
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="footer-link">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </Col>
+
+          {/* Contact Info */}
+          <Col md={3} className="mb-4">
+            <h5 className="text-uppercase fw-bold">Contact Us</h5>
+            <p className="small">
+              Email:{" "}
+              <a href="mailto:support@sneakyheads.com" className="footer-link">
+                support@sneakyheads.com
+              </a>
+            </p>
+            <p className="small">Phone: +1 987 654 3210</p>
+            <p className="small">Location: 456 Sneaker Street, Hype City</p>
+          </Col>
+
+          {/* Social Media */}
+          <Col md={3} className="text-md-end text-center">
+            <h5 className="text-uppercase fw-bold">Follow Us</h5>
+            <div className="d-flex justify-content-md-end justify-content-center gap-3">
+              <a href="#" className="footer-social">
+                <FaFacebook size={24} />
+              </a>
+              <a href="#" className="footer-social">
+                <FaInstagram size={24} />
+              </a>
+              <a href="#" className="footer-social">
+                <FaTwitter size={24} />
+              </a>
+              <a href="#" className="footer-social">
+                <FaTiktok size={24} />
+              </a>
+            </div>
+          </Col>
+        </Row>
+
+        {/* Bottom Footer */}
+        <hr className="bg-light opacity-50" />
+        <p className="text-center small mb-0">
+          &copy; 2025 Sneaky Heads | Stay Fresh, Stay Fly 👟🔥
         </p>
-        <p>
-          <FaMapMarkerAlt style={{ marginRight: "8px", color: "#ff9800" }} />{" "}
-          123 Sneaker Street, Shoe City, SH 12345
-        </p>
-        <p>
-          <FaPhone style={{ marginRight: "8px", color: "#ff9800" }} /> +1 987
-          654 3210
-        </p>
-        <p>
-          <FaEnvelope style={{ marginRight: "8px", color: "#ff9800" }} />{" "}
-          support@sneakyheads.com
-        </p>
-        <p>
-          <FaClock style={{ marginRight: "8px", color: "#ff9800" }} /> Mon -
-          Fri: 10:00 AM - 8:00 PM
-        </p>
-        <p style={{ marginTop: "15px", fontSize: "14px", opacity: "0.8" }}>
-          &copy; 2025 Sneaky Heads. All Rights Reserved.
-        </p>
-      </div>
-      <div style={{ textAlign: "center", minWidth: "200px" }}>
-        <p
-          style={{
-            fontSize: "20px",
-            fontWeight: "bold",
-            marginBottom: "15px",
-            color: "#ff9800",
-          }}
-        >
-          Follow Us
-        </p>
-        <div>
-          <a
-            href="#"
-            style={{
-              margin: "0 15px",
-              color: "white",
-              fontSize: "24px",
-              transition: "0.3s",
-            }}
-          >
-            <FaFacebook />
-          </a>
-          <a
-            href="#"
-            style={{
-              margin: "0 15px",
-              color: "white",
-              fontSize: "24px",
-              transition: "0.3s",
-            }}
-          >
-            <FaTwitter />
-          </a>
-          <a
-            href="#"
-            style={{
-              margin: "0 15px",
-              color: "white",
-              fontSize: "24px",
-              transition: "0.3s",
-            }}
-          >
-            <FaInstagram />
-          </a>
-        </div>
-      </div>
+      </Container>
     </footer>
   );
 };
